@@ -1,7 +1,7 @@
 const cors = require('cors');
-require('dotenv').config();
+
 const corsOptions = {
-    origin:process.env.FRONTEND_URL,
+    origin: 'https://bookit-frontend-sepia.vercel.app',
 };
 
 module.exports = cors(corsOptions);
