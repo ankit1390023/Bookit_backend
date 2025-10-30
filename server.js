@@ -56,7 +56,6 @@ app.listen(PORT, () => {
     🚀 Server running in ${process.env.NODE_ENV || 'development'} mode
     📡 Listening on port ${PORT}
     🌐 URL: http://localhost:${PORT}
-    📚 API Docs: http://localhost:${PORT}/api
   `);
 });
 
